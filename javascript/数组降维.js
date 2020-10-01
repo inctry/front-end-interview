@@ -1,6 +1,6 @@
 function fn(arr) {
     while( arr.some( item => Array.isArray(item) ) ) {
-        arr = [].concat(...arr)
+        arr = arr.concat(...arr)
     }
     return arr
 }
