@@ -33,6 +33,22 @@ text-align，text-indent
 
 （4）DOM 可控性区别。可以通过 JS 操作 DOM ，插入 link 标签来改变样式；由于 DOM 方法是基于文档的，无法使用 @import 的方式插入样式。
 
+###5 垂直，水平居中
+####水平居中
+
+行内元素: text-align: center
+块级元素: margin: 0 auto
+position:absolute +left:50%+ transform:translateX(-50%)
+display:flex + justify-content: center
+
+设置line-height 等于height
+position：absolute +top:50%+ transform:translateY(-50%)
+display:flex + align-items: center
+display:table+display:table-cell + vertical-align: middle;
+
+
+
+
 
 
 
