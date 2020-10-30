@@ -1,10 +1,5 @@
-let user = {
-  name: "John",
-  age: 30,
+function test() {
+    console.log(arguments);
+}
 
-  toString() {
-    return `{name: "${this.name}", age: ${this.age}}`;
-  }
-};
-
-alert(user);
+test(1, 2, 3, 4, 5, 6)

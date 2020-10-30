@@ -46,6 +46,16 @@ position：absolute +top:50%+ transform:translateY(-50%)
 display:flex + align-items: center
 display:table+display:table-cell + vertical-align: middle;
 
+###6、页面生命周期
+
+DOMContentLoaded 事件 —— DOM 已经就绪，因此处理程序可以查找 DOM 节点，并初始化接口。
+
+load 事件 —— 外部资源已加载完成，样式已被应用，图片大小也已知了。
+
+beforeunload 事件 —— 用户正在离开：我们可以检查用户是否保存了更改，并询问他是否真的要离开。
+
+unload 事件 —— 用户几乎已经离开了，但是我们仍然可以启动一些操作，例如发送统计数据。
+
 
 
 
